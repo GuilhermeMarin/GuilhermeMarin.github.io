@@ -65,7 +65,7 @@ function App() {
                     empregados e das categorias de audio aos quais eles
                     são comumente aplicados. A segunda fase consiste de uma investigação
                     empírica com o objetivo de comparar o resultado da aplicação de
-                    diferentes codecs de audio sobre um conjunto de
+                    diferentes codecs de audio dos formatos estudados sobre um conjunto de
                     sinais de audio representativos. Os resultados desse estudo
                     empírico serão comparados usando diversos critérios de qualidade de audio e de compressão.
                 </p>
