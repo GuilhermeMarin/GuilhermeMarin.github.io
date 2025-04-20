@@ -16,9 +16,7 @@ function App() {
                 respectivos codecs
             </h2>
             <div className="student-advisor">
-                <p>
-                    Guilherme Simões Santos Marin
-                </p>
+                <p>Guilherme Simões Santos Marin</p>
                 <p>
                     {" "}
                     <span className="advisor">Orientador:</span> Marcelo Queiroz
@@ -26,23 +24,19 @@ function App() {
             </div>
             <nav className="navbar">
                 <ul>
-                    <li>
+                    <li className="button">
                         {" "}
-                        <a className="button" href="/proposta-de-trabalho.pdf">
+                        <a href="/proposta-de-trabalho.pdf">
                             Proposta de trabalho
                         </a>{" "}
                     </li>
-                    <li>
+                    <li className="button">
                         {" "}
-                        <a className="button" href="">
-                            Repositório do projeto
-                        </a>{" "}
+                        <a href="">Repositório do projeto</a>{" "}
                     </li>
-                    <li>
+                    <li className="button">
                         {" "}
-                        <a className="button" href="">
-                            Monografia
-                        </a>{" "}
+                        <a href="">Monografia</a>{" "}
                     </li>
                 </ul>
             </nav>
@@ -55,19 +49,21 @@ function App() {
                     conclusão de curso apresenta um estudo abrangente dos
                     formatos de codificação de audio e de seus codecs, com o
                     objetivo duplo de fornecer uma fundamentação teórica sobre o
-                    assunto e ao mesmo tempo conduzir uma avaliação empírica do desempenho de
-                    cada formato sobre diversos tipos de conteúdos de audio. A
-                    primeira fase do projeto consiste de uma revisão teórica
-                    aprofundada acerca dos formatos de codificação de audio mais
-                    utilizados atualmente, como por exemplo o MP3, o AAC e o
-                    FLAC. Cada formato será analisado em termos das técnicas
-                    de compressão utilizadas, dos modelos psicoacústicos
-                    empregados e das categorias de audio aos quais eles
-                    são comumente aplicados. A segunda fase consiste de uma investigação
-                    empírica com o objetivo de comparar o resultado da aplicação de
-                    diferentes codecs de audio dos formatos estudados sobre um conjunto de
-                    sinais de audio representativos. Os resultados desse estudo
-                    empírico serão comparados usando diversos critérios de qualidade de audio e de compressão.
+                    assunto e ao mesmo tempo conduzir uma avaliação empírica do
+                    desempenho de cada formato sobre diversos tipos de conteúdos
+                    de audio. A primeira fase do projeto consiste de uma revisão
+                    teórica aprofundada acerca dos formatos de codificação de
+                    audio mais utilizados atualmente, como por exemplo o MP3, o
+                    AAC e o FLAC. Cada formato será analisado em termos das
+                    técnicas de compressão utilizadas, dos modelos
+                    psicoacústicos empregados e das categorias de audio aos
+                    quais eles são comumente aplicados. A segunda fase consiste
+                    de uma investigação empírica com o objetivo de comparar o
+                    resultado da aplicação de diferentes codecs de audio dos
+                    formatos estudados sobre um conjunto de sinais de audio
+                    representativos. Os resultados desse estudo empírico serão
+                    comparados usando diversos critérios de qualidade de audio e
+                    de compressão.
                 </p>
                 {/* <p className="abstract-text">
                     O ensino de Computação para crianças e adolescentes é cada
