@@ -1,42 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 1.8rem;
+    --accent-color: blue;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 1rem;
+    height: 100%;
+    padding: 0 9.2rem;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.discipline-header {
+    margin: 2rem 0;
+    color: var(--accent-color);
+    font-weight: 600;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.project-title {
+    font-weight: 500;
+    /* text-wrap: ; */
+    margin: 1rem 0;
 }
 
-.card {
-  padding: 2em;
+.student-advisor {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
 }
 
-.read-the-docs {
-  color: #888;
+/* .advisor {
+    color: var(--accent-color);
+} */
+
+ul {
+
+    list-style: none;
+    display: flex;
+
+    gap: 2rem;
 }
+
+.navbar {
+    margin: 2rem 0;
+}
+
+.button {
+    background-color: #d1d1d1;
+    color: black;
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    /* border: solid; */
+    border-radius: 0.8rem;
+}
+
+.abstract {
+    width: 100%;
+    
+}
+
+.abstract-title {
+    text-align: start;
+    color: var(--accent-color);
+}
+
+.abstract-text {
+    text-align: start;
+}
+
+.discipline-name {
+    margin: 1rem 0;
+}
+
